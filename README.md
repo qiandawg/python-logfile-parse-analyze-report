@@ -1,16 +1,16 @@
-PerfTraceAnalyzer: Server Performance Log Analyzer
+##PerfTraceAnalyzer: Server Performance Log Analyzer
 
 A Python tool to parse server performance trace logs, calculate key architectural metrics, and generate a summary report.
 
 This project was built to demonstrate proficiency in file parsing, data aggregation, and statistical reporting with Python, specifically for system architecture and performance analysis use cases.
 
-The "Why"
+##The "Why"
 
 In system architecture and performance debugging, engineers work with trace logs that can be billions of lines long. Manually inspecting them is impossible.
 
 This tool simulates the real-world task of an architect: quickly writing a script to parse a massive log file and extract high-level, actionable insights to identify performance bottlenecks.
 
-Features
+##Features
 
 File Parsing: Reads and parses a structured, line-by-line log file.
 
@@ -24,7 +24,7 @@ TLB (Translation Lookaside Buffer) Hit Rate
 
 Average Main Memory (DRAM) Access Latency
 
-How to Run
+##How to Run
 
 This script is designed to be run from the command line and accepts a log file as an argument.
 
